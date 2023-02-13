@@ -1,0 +1,173 @@
+body{
+    background-color: aqua;
+}
+input:hover{
+background-color:lightgrey; 
+}
+table{
+width: 100%;
+}
+#btn{
+display: flex;
+align-items: center;
+justify-content: center;
+margin:  20px auto 20px auto;
+max-width: 100%;
+padding: 7px 15px;
+border-radius: 10px;
+background-color:green;
+color: white;
+font-size: 18px;
+}
+.btn-danger{
+/* margin:  20px auto 20px auto; */
+border-radius: 10px;
+color: white;
+font-size: 20px;
+}
+.btn-danger:hover{
+    font-weight: 500;
+}
+#btn:hover{
+color: white;
+font-weight: 500;
+
+}
+td,tr,th{
+border:1px solid black;
+padding: 10px;
+cursor:pointer;
+text-align: center;
+font-size: 20px;
+}
+#td4{
+padding-left:20px;
+}
+#tr:nth-child(odd){
+background-color: white;
+}
+#tr:nth-child(even){
+background-color:orange
+}
+tr:nth-child(1){
+background-color:lightsalmon
+}
+#tr{
+text-align: center;
+}
+#tr:hover{
+background-color: grey;
+color: #fff;
+
+}
+.td5{
+border: 0px;
+/* background-color: white; */
+}
+#dltbtn{
+padding: 10px 20px;
+color: white;
+background-color: brown;
+border-radius: 10px;
+border:none;
+margin-left :10px;
+}
+#dltbtn:hover{
+background-color: aqua;
+}    
+a{
+text-decoration: none;
+}
+a:hover{
+color:white;
+}
+#ubtn{
+padding: 10px 20px;
+color: white;
+background-color: brown;
+border-radius: 10px;
+border:none;
+margin-left :10px;
+}
+
+#ubtn:hover{
+background-color: aqua;
+}
+.modal-header {
+background: #F7941E;
+color: #fff;
+}
+.required:after {
+content: "*";
+color: red;
+}
+.btn-primary{
+    font-size: 18px;
+}
+.btn-primary:hover{
+/* margin-left: -25px; */
+font-weight: 500;
+}
+#multiple{
+border-radius: 5px;
+}
+
+.modal{
+width: 40%;
+ /* margin-top:70px; */
+ height: auto;
+}
+#div{
+position: absolute;
+    margin-top: 55px;
+    margin-left: 82px;
+}
+p{
+margin-top: 5px;
+margin-bottom: 2rem;
+}
+
+.col-2 {
+margin-top: 100px;
+flex: 0 0 auto;
+width: 5.6666666667%;
+}
+.col-6{
+padding: 0px;
+}
+
+.row {
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+margin-top: calc(var(--bs-gutter-y) * -1);
+margin-right: calc(var(--bs-gutter-x)/ -2);
+margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.two{
+    width: 15%;
+}
+#c{
+margin-top: 23px;
+}
+
+.gender{
+margin-left: 30px;
+}
+
+.c{
+    margin-top: 28px;
+}
+#search{
+    /* width:60%;
+    margin: auto; */
+}
+
+
+
+/* const dragArea = document.querySelector('#rows');
+new Sortable(dragArea, {
+  animation: 350,
+  orderable: true,
+}); */
